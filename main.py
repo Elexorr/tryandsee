@@ -1,16 +1,11 @@
-# This is a sample Python script.
+import matika
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+vypocet = matika.vypocty()
+x = int(input('Zadaj prve cislo:\n'))
+vypocet.a = x
+y = int(input('Zadaj druhe cislo:\n'))
+print('Sucet:', vypocet.sucet(y))
+print('Rozdiel:', vypocet.rozdiel(y))
+print('Sucin:', vypocet.sucin(y))
+print('Podiel:', vypocet.podiel(y))
+print('Mocnina:', vypocet.mocnina(y))
