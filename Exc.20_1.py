@@ -22,7 +22,3 @@ print('Druhe meno:', druhemeno)
 tretiemeno = meno[len(prvemeno) + len(druhemeno) + 2:len(meno)]
 print('Tretie meno:', tretiemeno)
 
-#while meno[i] != ' ':
-#    prvemeno[i] = meno[i]
-#    i = i+1
-#print(prvemeno)
